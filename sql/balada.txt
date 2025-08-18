@@ -1,0 +1,25 @@
+Funcionario
+id
+nome
+data_nascimento
+
+Evento
+id
+nome 
+data_hora_inicio
+data_hora_fim
+
+Lote
+id 
+evento_id
+valor
+qtde
+
+Ingresso
+id
+evento_id (fk)
+lote_id (fk)
+
+Atração
+id
+nome

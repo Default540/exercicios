@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --cor-letra: rgb(0, 255, 238);
+        }
+        * {
+            color: var(--cor-letra);
+        }
+
+        .conteiner {
+            display: grid;
+            border: solid 1px rgb(224, 70, 70);
+            height: 500px;
+            grid-template-columns: 1fr 1fr 5fr;
+            grid-template-rows: 50px auto;
+            grid-template-areas: "nome nome nome";
+        }
+
+        .item {
+            background-color: rgb(0, 0, 0);
+            margin: 10px;
+        }
+        #grid1{
+            grid-area: nome;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="item" id="grid1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+
+</html>

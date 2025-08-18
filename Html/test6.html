@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            gap: 10px;
+            margin: auto;
+            width: 80vw;
+            height: 40vw;
+            display: flex;
+        
+            border: solid 1px #000;
+            
+            flex-flow: row nowrap;
+            justify-content: start;
+            align-content: end; 
+            align-items: top;
+        }
+
+        .item{
+            border: 1px solid blue;
+            border-radius: 3px;
+            width: 17vw;
+            height: 13vw;
+        }
+        .item-2{
+            border: 1px solid red;
+            width: 8vw;
+            height: 5vw;
+            
+        }
+        .test{
+            align-self: flex-end;
+        }
+        
+    </style>
+    <div class="container">
+        <div class="item test"></div>
+        <div class="item-2"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item-2"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+E:\Programs\Aulas\csharp\co\testlib\bin\Debug\net8.0\testlib.deps.json
+E:\Programs\Aulas\csharp\co\testlib\bin\Debug\net8.0\testlib.dll
+E:\Programs\Aulas\csharp\co\testlib\bin\Debug\net8.0\testlib.pdb
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\testlib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\testlib.AssemblyInfoInputs.cache
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\testlib.AssemblyInfo.cs
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\testlib.csproj.CoreCompileInputs.cache
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\testlib.dll
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\refint\testlib.dll
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\testlib.pdb
+E:\Programs\Aulas\csharp\co\testlib\obj\Debug\net8.0\ref\testlib.dll

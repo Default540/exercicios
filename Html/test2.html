@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 19px;
+            font-size: large;
+        }
+        form{
+            color: red;
+        }
+
+        label{
+            color: aquamarine;
+        }
+        label{
+            color: orange;
+        }
+        label:hover{
+            color: green;
+        }
+        body>div e{ /*filho direto // decendente*/
+            color: yellow;
+        }
+        body[atr]{ /*elementos com o tributo atr*/
+            color: #000;
+        }
+        body[atr="valor"]{ /*elementos com o atributo atr = valor*/
+            color: #000;
+        }
+        body:root{ /*<html>*/
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/2-sol.jpg" alt="">
+    
+    <figure>
+        <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/2-sol.jpg" alt="">
+        <figcaption>Descrição</figcaption>
+    </figure>
+    <a href="https://www.google.com/">a</a>
+    <a href="https://www.google.com/" target="_blank">aaa</a>
+    <br>
+    <a href="#img">aaaaaaaaa</a>
+    
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <img id="img" src="test/2-sol.webp" alt="">
+    
+    <a href="test/2-sol.webp">
+        <img id="img" src="test/2-sol.webp" alt="">
+    </a>
+    
+
+    <form action="recebe.php" method="post">
+        Nome: <input type="text" name="nome" size="10" minlength="10" required autofocus>
+        Senha: <input type="password" name="senha" id="senha" placeholder="senha" maxlength="10">
+        <input type="hidden" name="user" value="14">
+        Comentario: <br>
+        <textarea name="comentario" title="comentario" placeholder="Digite" id="coment" cols="10" rows="5">
+            DIGITE
+        </textarea>
+        <input type="radio" checked name="time" value="G" id=""> G
+        <input type="radio" disabled name="time" value="I" id=""> I
+        <br><br><br><br><br><br>
+        <input type="range" name="telefone" min="0" max="999999999" id="tel">
+        <span></span>
+        <br><br><br>
+        <input type="checkbox" name="so" value="win" id=""> windows
+        <input type="checkbox" name="so" value="lix" id=""> linux
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="tel" name="" pattern="^[0-9]{2}-([0-9]{8}|[0-9]{9})" id="">
+        <input type="search" name="" id="">
+        <input type="url" name="" id="">
+        <input type="date" name="" id="">
+        <input type="number" name="" id="">
+        <input type="color" name="" id="">
+        <input type="file" name="" id="">
+        <input type="email" name="" id="">
+        
+    </form>
+
+    <br><br><br><br><br><br>
+
+    <form action="expl.php" method="get">
+        <fieldset>
+            <legend>dados</legend>
+            
+            <label style="color: blue;" for="n1">Nome:</label>
+            <input type="text" name="text" id="n1">
+            
+            <br><br>
+            
+            <label for="s1">Senha:</label>
+            <input type="password" name="senha" id="s1">
+            
+            <br><br>
+            
+            <label for="gremio">gremio</label>
+            <input type="radio" checked name="time" id="gremio" value="g">
+            <label for="inter">inter</label>
+            <input type="radio" name="time" id="inter" value="i">
+            
+            <br><br>
+            
+            <input type="submit" value="enviar">
+            
+        </fieldset>
+    </form>
+
+    <br><br><br><br><br>
+
+    <button disabled="disabled">aaaa</button>
+    
+    <script>
+        let tel = document.querySelector("#tel")
+        
+        tel.addEventListener("input",function () {
+            document.querySelector("span").innerHTML = tel.value
+        })
+    </script>
+</body>
+</html>

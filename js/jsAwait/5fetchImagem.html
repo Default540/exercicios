@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Ola</title>
+</head>
+<body>
+    <div id="mostra"></div>
+    <script>
+    
+async function buscaImagem() {
+    const painel = document.querySelector('#mostra');
+    const url="./nave.jpg";
+    let resposta=  await fetch(url, {
+        mode:"no-cors"
+    });
+    let imagem = await resposta.blob();
+    
+    const imageObjectURL = URL.createObjectURL(imagem);
+    let img = document.createElement('img');
+    img.src = imageObjectURL;
+    painel.appendChild(img);
+}
+
+//main
+buscaImagem();
+
+
+</script>
+</body>
+</html>

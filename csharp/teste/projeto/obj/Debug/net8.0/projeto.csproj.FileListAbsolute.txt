@@ -1,0 +1,42 @@
+/home/aluno/teste/projeto/bin/Debug/net8.0/projeto
+/home/aluno/teste/projeto/bin/Debug/net8.0/projeto.deps.json
+/home/aluno/teste/projeto/bin/Debug/net8.0/projeto.runtimeconfig.json
+/home/aluno/teste/projeto/bin/Debug/net8.0/projeto.dll
+/home/aluno/teste/projeto/bin/Debug/net8.0/projeto.pdb
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.GeneratedMSBuildEditorConfig.editorconfig
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.AssemblyInfoInputs.cache
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.AssemblyInfo.cs
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.csproj.CoreCompileInputs.cache
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.dll
+/home/aluno/teste/projeto/obj/Debug/net8.0/refint/projeto.dll
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.pdb
+/home/aluno/teste/projeto/obj/Debug/net8.0/projeto.genruntimeconfig.cache
+/home/aluno/teste/projeto/obj/Debug/net8.0/ref/projeto.dll
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/bin/Debug/net8.0/projeto
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/bin/Debug/net8.0/projeto.deps.json
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/bin/Debug/net8.0/projeto.runtimeconfig.json
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/bin/Debug/net8.0/projeto.dll
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/bin/Debug/net8.0/projeto.pdb
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.GeneratedMSBuildEditorConfig.editorconfig
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.AssemblyInfoInputs.cache
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.AssemblyInfo.cs
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.csproj.CoreCompileInputs.cache
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.dll
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/refint/projeto.dll
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.pdb
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/projeto.genruntimeconfig.cache
+/media/aluno/HD Externo/Programs/Aulas/csharp/teste/projeto/obj/Debug/net8.0/ref/projeto.dll
+E:\Programs\Aulas\csharp\teste\projeto\bin\Debug\net8.0\projeto.exe
+E:\Programs\Aulas\csharp\teste\projeto\bin\Debug\net8.0\projeto.deps.json
+E:\Programs\Aulas\csharp\teste\projeto\bin\Debug\net8.0\projeto.runtimeconfig.json
+E:\Programs\Aulas\csharp\teste\projeto\bin\Debug\net8.0\projeto.dll
+E:\Programs\Aulas\csharp\teste\projeto\bin\Debug\net8.0\projeto.pdb
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.AssemblyInfoInputs.cache
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.AssemblyInfo.cs
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.csproj.CoreCompileInputs.cache
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.dll
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\refint\projeto.dll
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.pdb
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\projeto.genruntimeconfig.cache
+E:\Programs\Aulas\csharp\teste\projeto\obj\Debug\net8.0\ref\projeto.dll

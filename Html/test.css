@@ -1,0 +1,11 @@
+.horizontal{
+    justify-content: center;
+}
+
+.vertical{
+    align-content: center;
+}
+
+.linhas{
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Ola</title>
+</head>
+<body>
+    <div id="mostra"></div>
+    <script>
+    
+    async function buscaCep() {
+    const painel = document.querySelector('#mostra');
+    const url='https://viacep.com.br/ws/96201460/json/';
+    let resposta=  await fetch(url);
+    let js = await resposta.json();
+    
+    console.log(js);
+}
+
+//main
+buscaCep();
+  
+</script>
+</body>
+</html>

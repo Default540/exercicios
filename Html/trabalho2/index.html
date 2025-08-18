@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Loja</title>
+    <meta name="title" content="Loja" />
+    <meta name="description" content="Descrição do site com metatag" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://default540.github.io/trabalhohtml3/" />
+    <meta property="og:title" content="Loja" />
+    <meta property="og:description" content="Descrição do site com metatag" />
+    <meta property="og:image" content="https://default540.github.io/trabalhohtml3/img/logo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://default540.github.io/trabalhohtml3/" />
+    <meta property="twitter:title" content="Loja" />
+    <meta property="twitter:description" content="Descrição do site com metatag" />
+    <meta property="twitter:image" content="https://default540.github.io/trabalhohtml3/img/logo.png" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"
+        defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"
+        defer></script>
+
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="logo" id="logo">
+                <h1>Loja</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtosdestaque">Produtos em Destaque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comparacaoprogress">Comparações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabela">Especificações de produtos</a>
+                    </li>
+                </ul>
+                <form class="form-inline mr-sm-2">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <a href="#" class="nav-item d-flex align-items-center"><img class="navbar-brand" id="carrinho"
+                        src="img/carrinho.png" alt="carrinho" loading="lazy">
+                    <p class="nav-item mn-hamb">Carrinho</p>
+                </a>
+                <a href="#" id="perfil" class="nav-item d-flex align-items-center"><img class="navbar-brand"
+                        src="img/perfil-de-usuario.png" alt="usuario" loading="lazy">
+                    <p class="nav-item mn-hamb">Perfil</p>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="mb-20vh">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/propaganda/propaganda-pequena.jpg">
+                            <img class="d-block w-100" src="./img/propaganda/propaganda.jpg" alt="First slide">
+                        </picture>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Jogue sem uma placa de vídeo</h5>
+                            <p>Os mais recentes processadores AMD Ryzen™ Série 8000G apresentam os melhores gráficos
+                                integrados da categoria, permitindo que você jogue praticamente qualquer jogo de PC em
+                                alta definição.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/propaganda/propaganda-pequena.jpg">
+                            <img class="d-block w-100" src="./img/propaganda/propaganda.jpg" alt="First slide"
+                                loading="lazy">
+                        </picture>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Jogue sem uma placa de vídeo</h5>
+                            <p>Os mais recentes processadores AMD Ryzen™ Série 8000G apresentam os melhores gráficos
+                                integrados da categoria, permitindo que você jogue praticamente qualquer jogo de PC em
+                                alta definição.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="w-80 m-auto mb-20vh" id="produtosdestaque">
+            <h2 class="h2 text-center m-5">Produtos em Destaque</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="img/placadevideo.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Placa De Video</h5>
+                        <p class="card-text">Placa De Video Mancer Geforce Rtx 2060 Heimdall, 6gb, Gddr6</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-cards" data-toggle="modal"
+                            data-target="#exampleModal">
+                            Ver Produto
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img class="img-fluid w-100" src="img/placadevideo.webp" alt="">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>
+                                                <h4 class="h4">O que você precisa saber sobre este produto</h4>
+                                            </li>
+                                            <li>Tamanho da memória: 6 GB</li>
+                                            <li>Interface PCI-Express 3.0.</li>
+                                            <li>Interface de memória: 192bit.</li>
+                                            <li>Possui conexão: HDMI.</li>
+                                            <li>Ideal para trabalhar em alta velocidade.</li>
+                                            <li>Entradas: 3 x DisplayPort 1 x HDMI</li>
+                                            <li>Tamanho de memória: 6GB</li>
+                                            <li>Barramento: PCI Express 3.0</li>
+                                            <li>GeForce RTX 2060</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-primary w-40">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/placadevideo.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Placa De Video</h5>
+                        <p class="card-text">Placa De Video Mancer Geforce Rtx 2060 Heimdall, 6gb, Gddr6</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-cards" data-toggle="modal"
+                            data-target="#exampleModa2">
+                            Ver Produto
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModa2" tabindex="-1" role="dialog"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img class="img-fluid w-100" src="img/placadevideo.webp" alt="">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>
+                                                <h4 class="h4">O que você precisa saber sobre este produto</h4>
+                                            </li>
+                                            <li>Tamanho da memória: 6 GB</li>
+                                            <li>Interface PCI-Express 3.0.</li>
+                                            <li>Interface de memória: 192bit.</li>
+                                            <li>Possui conexão: HDMI.</li>
+                                            <li>Ideal para trabalhar em alta velocidade.</li>
+                                            <li>Entradas: 3 x DisplayPort 1 x HDMI</li>
+                                            <li>Tamanho de memória: 6GB</li>
+                                            <li>Barramento: PCI Express 3.0</li>
+                                            <li>GeForce RTX 2060</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-primary w-40">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/placadevideo.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Placa De Video</h5>
+                        <p class="card-text">Placa De Video Mancer Geforce Rtx 2060 Heimdall, 6gb, Gddr6</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-cards" data-toggle="modal"
+                            data-target="#exampleModa3">
+                            Ver Produto
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModa3" tabindex="-1" role="dialog"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img class="img-fluid w-100" src="img/placadevideo.webp" alt="">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>
+                                                <h4 class="h4">O que você precisa saber sobre este produto</h4>
+                                            </li>
+                                            <li>Tamanho da memória: 6 GB</li>
+                                            <li>Interface PCI-Express 3.0.</li>
+                                            <li>Interface de memória: 192bit.</li>
+                                            <li>Possui conexão: HDMI.</li>
+                                            <li>Ideal para trabalhar em alta velocidade.</li>
+                                            <li>Entradas: 3 x DisplayPort 1 x HDMI</li>
+                                            <li>Tamanho de memória: 6GB</li>
+                                            <li>Barramento: PCI Express 3.0</li>
+                                            <li>GeForce RTX 2060</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-primary w-40">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="comparacaoprogress" class="m-auto mb-20vh w-80">
+            <h2 class="h2 text-center m-5">AMD Ryzen 9 9950X: O melhor processador para jogos e criação de conteúdo</h2>
+
+            <div class="red-progress">
+                <h4 class="h4">Criação de conteúdo</h4>
+                <h5 class="h5">Blender</h5>
+                <div class="progress">
+                    <div class="progress-bar text-right pr-4" id="prg-56">AMD Ryzen +56%</div>
+                </div>
+                <h5 class="h5">Handbrake</h5>
+                <div class="progress">
+                    <div class="progress-bar text-right pr-4" id="prg-55">AMD Ryzen +55%</div>
+                </div>
+            </div>
+
+            <div class="orange-progres">
+                <h4 class="h4">Jogos</h4>
+                <h5 class="h5">Horizon: Zero Dawn</h5>
+                <div class="progress">
+                    <div class="progress-bar text-right pr-4" id="prg-23">AMD Ryzen +23%</div>
+                </div>
+                <h5 class="h5">DOTA 2</h5>
+                <div class="progress">
+                    <div class="progress-bar text-right pr-4" id="prg-17">AMD Ryzen +17%</div>
+                </div>
+                <h5 class="h5">Cyberpunk 2077</h5>
+                <div class="progress">
+                    <div class="progress-bar text-right pr-4" id="prg-13">AMD Ryzen +13%</div>
+                </div>
+            </div>
+
+            <div class="gray-progres">
+                <h5 class="h5">Intel Core i9-14900K</h5>
+                <div class="progress">
+                    <div class="progress-bar text-right pr-4" id="prg-intel">100</div>
+                </div>
+            </div>
+
+        </section>
+        <section id="tabela" class="">
+
+            <h2 class="h2 text-center m-5">Especificações</h2>
+            <div class="table-responsive">
+
+
+                <table class="table table-hover w-80 m-auto">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Modelo da placa de vídeo</th>
+                            <th scope="col">Nº de núcleos de CPU</th>
+                            <th scope="col">Nº de threads</th>
+                            <th scope="col">Aumento de clock máx.</th>
+                            <th scope="col">Clock básico</th>
+                            <th scope="col">Solução Térmica (PIB)</th>
+                            <th scope="col">Contagem de núcleos gráficos</th>
+                            <th scope="col">TDP padrão</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AMD Ryzen™ 9 9950X</td>
+                            <td>AMD Radeon™ Graphics</td>
+                            <td>16</td>
+                            <td>32</td>
+                            <td>Até 5.7 GHz</td>
+                            <td>4.3 GHz</td>
+                            <td>Não incluído</td>
+                            <td>2</td>
+                            <td>170W</td>
+                        </tr>
+                        <tr>
+                            <td>AMD Ryzen™ 9 9900X</td>
+                            <td>AMD Radeon™ Graphics</td>
+                            <td>12</td>
+                            <td>24</td>
+                            <td>Até 5.6 GHz</td>
+                            <td>4.4 GHz</td>
+                            <td>Não incluído</td>
+                            <td>2</td>
+                            <td>120W</td>
+                        </tr>
+                        <tr>
+                            <td>AMD Ryzen™ 7 9700X</td>
+                            <td>AMD Radeon™ Graphics</td>
+                            <td>8</td>
+                            <td>16</td>
+                            <td>Até 5.5 GHz</td>
+                            <td>3.8 GHz</td>
+                            <td>Não incluído</td>
+                            <td>2</td>
+                            <td>65W</td>
+                        </tr>
+                        <tr>
+                            <td>AMD Ryzen™ 5 9600X</td>
+                            <td>AMD Radeon™ Graphics</td>
+                            <td>6</td>
+                            <td>12</td>
+                            <td>Até 5.4 GHz</td>
+                            <td>3.9 GHz</td>
+                            <td>Não incluído</td>
+                            <td>2</td>
+                            <td>65W</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="fixed-bottom d-flex justify-content-between align-items-center">
+        <ul>
+            <li>Endereço: Rua A 123</li>
+            <li>Contato: (xx) xxxx-xxxx</li>
+        </ul>
+        <p>&COPY; Loja</p>
+        <ul>
+            <li>
+                <div id="socialMidia">
+                    <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="./img/x.png" alt="x"></a>
+                    <a href="#"><img src="./img/whatsapp.png" alt="whatsapp"></a>
+                </div>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

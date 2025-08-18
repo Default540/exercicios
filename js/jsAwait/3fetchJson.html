@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Ola</title>
+</head>
+<body>
+    <div id="mostra"></div>
+    <script>
+
+async function buscaJson() {
+    const painel = document.querySelector('#mostra');
+    const url="./estados.json";
+    let resposta=  await fetch(url);
+    let js = await resposta.json();
+    painel.innerHTML = JSON.stringify(js);
+}
+
+//main
+buscaJson();
+
+    </script>
+</body>
+</html>

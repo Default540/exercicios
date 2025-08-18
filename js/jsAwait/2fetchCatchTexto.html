@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Ola</title>
+</head>
+<body>
+    <div id="mostra"></div>
+    <script>
+    async function buscaTexto() {
+        const painel = document.querySelector('#mostra');
+        const url="./texto.txt";
+        try{
+            let resposta=  await fetch(url);
+            let texto = await resposta.json(); //vai gerar um erro
+            painel.innerHTML = texto;
+        } catch (err){
+            console.log(err);
+        }
+    }
+//Main
+    buscaTexto();
+
+        
+</script>
+</body>
+</html>

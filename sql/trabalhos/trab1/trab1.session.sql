@@ -1,0 +1,1 @@
+SELECT estatistica_livro(2);
